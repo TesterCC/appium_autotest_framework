@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<project name="GRUC_Mobile_SDK_Auto_Test" default="run" basedir=".">
+    <echo  message="import libs" />
+    <path id="run.classpath">
+        <fileset dir="${basedir}">
+            <include name="libs/testng-6.9.9.jar" />
+        </fileset>
+        <fileset dir="${basedir}/libs/">
+            <include name="selenium-server-standalone-2.52.0.jar" />
+            <include name="libs/*.jar" />
+        </fileset>
+		<fileset dir="${basedir}/libs/">
+            <include name="java-client-3.3.0.jar" />
+            <include name="libs/*.jar" />
+        </fileset>
+    </path>
+    <taskdef name="testng" classname="org.testng.TestNGAntTask" classpathref="run.classpath" />
+    <target name="clean">
+        <delete dir="build"/>
+    </target>
+    <target name="compile" depends="clean">
+        <echo message="mkdir"/>
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" debug="on" encoding="UTF-8">
+            <classpath refid="run.classpath"/>
+        </javac>
+    </target>
+    <path id="runpath"> 
+         <path refid="run.classpath"/> 
+         <pathelement location="build/classes"/> 
+       </path> 
+    <target name="run" depends="compile">
+        <testng  classpathref="runpath"  outputDir="test-output">
+            <xmlfileset dir="${basedir}" includes="grucsdktestcase.xml"/>
+            <jvmarg value="-ea" />
+        </testng>
+    </target>
+</project>

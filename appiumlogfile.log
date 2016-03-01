@@ -1,0 +1,49 @@
+2016-02-26 15:53:03,602 INFO  [Log] -------------------------------------－－--------- 
+2016-02-26 15:53:03,603 INFO  [Log] ***********Start Launch Driver.********** 
+2016-02-26 15:53:18,293 INFO  [Log] Start testAdvanceSettingsAty(). 
+2016-02-26 15:53:18,595 INFO  [Log] Current Activity --> com.gobalroam.android.grapi.ui.LoginActivity 
+2016-02-26 15:53:19,231 INFO  [Log] Current Activity --> com.gobalroam.android.grapi.ui.SetAdvanceActivity 
+2016-02-26 15:53:19,237 INFO  [Log] ~~~~~GRUC Configuration~~~~~ 
+2016-02-26 15:53:20,017 INFO  [Log] Server Name: pfingo_prod 
+2016-02-26 15:53:20,293 INFO  [Log] Proxy IP: 61.8.195.40 
+2016-02-26 15:53:20,570 INFO  [Log] Domain: zhanghong.grcaassip.com 
+2016-02-26 15:53:20,871 INFO  [Log] Tunel IP: 61.8.232.57 
+2016-02-26 15:53:21,326 INFO  [Log] Tunnel Port: 443 
+2016-02-26 15:53:21,868 INFO  [Log] Http IP: 10.0.1.123 
+2016-02-26 15:53:22,046 INFO  [Log] Http Port: 3128 
+2016-02-26 15:53:22,525 INFO  [Log] Codecs: iLBC,opus,PCMU,PCMA,G729,G722 
+2016-02-26 15:53:22,697 INFO  [Log] IM Server: 61.8.195.42 
+2016-02-26 15:53:22,912 INFO  [Log] IM Port: 5222 
+2016-02-26 15:53:22,912 INFO  [Log] ~~~~~GRUC Configuration~~~~~ 
+2016-02-26 15:53:22,999 INFO  [Log] End testAdvanceSettingsAty(). 
+2016-02-26 15:53:23,830 INFO  [Log] GRUC App version: version:1.0.434.261500533 
+2016-02-26 15:53:25,114 INFO  [Log] in LoginAty.loginApp() 
+2016-02-26 15:53:47,783 INFO  [Log] current activity: com.gobalroam.android.grapi.ui.LoginActivity 
+2016-02-26 15:53:49,830 INFO  [Log] ***Finish Run Testcases.Closed Launch Driver.*** 
+2016-02-26 15:53:49,830 INFO  [Log] -------------------------------------－－--------- 
+2016-02-26 15:55:07,126 INFO  [Log] -------------------------------------－－--------- 
+2016-02-26 15:55:07,127 INFO  [Log] ***********Start Launch Driver.********** 
+2016-02-26 15:55:22,097 INFO  [Log] Start testAdvanceSettingsAty(). 
+2016-02-26 15:55:22,415 INFO  [Log] Current Activity --> com.gobalroam.android.grapi.ui.LoginActivity 
+2016-02-26 15:55:22,963 INFO  [Log] Current Activity --> com.gobalroam.android.grapi.ui.SetAdvanceActivity 
+2016-02-26 15:55:22,969 INFO  [Log] ~~~~~GRUC Configuration~~~~~ 
+2016-02-26 15:55:23,555 INFO  [Log] Server Name: pfingo_prod 
+2016-02-26 15:55:23,664 INFO  [Log] Proxy IP: 61.8.195.40 
+2016-02-26 15:55:23,782 INFO  [Log] Domain: zhanghong.grcaassip.com 
+2016-02-26 15:55:23,997 INFO  [Log] Tunel IP: 61.8.232.57 
+2016-02-26 15:55:24,113 INFO  [Log] Tunnel Port: 443 
+2016-02-26 15:55:24,361 INFO  [Log] Http IP: 10.0.1.123 
+2016-02-26 15:55:24,488 INFO  [Log] Http Port: 3128 
+2016-02-26 15:55:25,919 INFO  [Log] Codecs: iLBC,opus,PCMU,PCMA,G729,G722 
+2016-02-26 15:55:26,223 INFO  [Log] IM Server: 61.8.195.42 
+2016-02-26 15:55:26,318 INFO  [Log] IM Port: 5222 
+2016-02-26 15:55:26,318 INFO  [Log] ~~~~~GRUC Configuration~~~~~ 
+2016-02-26 15:55:26,362 INFO  [Log] End testAdvanceSettingsAty(). 
+2016-02-26 15:55:26,991 INFO  [Log] GRUC App version: version:1.0.434.261500533 
+2016-02-26 15:55:27,996 INFO  [Log] in LoginAty.loginApp() 
+2016-02-26 15:55:52,328 INFO  [Log] current activity: com.gobalroam.android.grapi.ui.MainActivity 
+2016-02-26 15:55:54,843 INFO  [Log] Current account: yuchan (Online) 
+2016-02-26 15:55:54,986 INFO  [Log] App Version: APP Version:1.0.434.261500533 
+2016-02-26 15:55:57,871 INFO  [Log] current activity: com.gobalroam.android.grapi.ui.LoginActivity 
+2016-02-26 15:55:58,560 INFO  [Log] ***Finish Run Testcases.Closed Launch Driver.*** 
+2016-02-26 15:55:58,560 INFO  [Log] -------------------------------------－－--------- 

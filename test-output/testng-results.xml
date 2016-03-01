@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="51630" started-at="2016-02-26T07:55:06Z" finished-at="2016-02-26T07:55:58Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="51630" started-at="2016-02-26T07:55:06Z" finished-at="2016-02-26T07:55:58Z">
+      <class name="com.gruc.testcases.TestEntrance">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.gruc.testcases.TestEntrance@7305830a]" name="beforeMethod" is-config="true" duration-ms="15149" started-at="2016-02-26T15:55:06Z" finished-at="2016-02-26T15:55:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testAdvanceSettingsAty()[pri:1, instance:com.gruc.testcases.TestEntrance@7305830a]" name="testAdvanceSettingsAty" duration-ms="4269" started-at="2016-02-26T15:55:22Z" finished-at="2016-02-26T15:55:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdvanceSettingsAty -->
+        <test-method status="PASS" signature="testLoginAty()[pri:2, instance:com.gruc.testcases.TestEntrance@7305830a]" name="testLoginAty" duration-ms="26963" started-at="2016-02-26T15:55:26Z" finished-at="2016-02-26T15:55:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginAty -->
+        <test-method status="PASS" signature="testLogout()[pri:3, instance:com.gruc.testcases.TestEntrance@7305830a]" name="testLogout" duration-ms="4540" started-at="2016-02-26T15:55:53Z" finished-at="2016-02-26T15:55:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.gruc.testcases.TestEntrance@7305830a]" name="afterMethod" is-config="true" duration-ms="689" started-at="2016-02-26T15:55:57Z" finished-at="2016-02-26T15:55:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.gruc.testcases.TestEntrance -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
